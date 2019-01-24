@@ -1,0 +1,16 @@
+{
+  "name": "Header Mods",
+  "description": "Modifies Specific Headers",
+  "version": "0.1",
+  "permissions": [
+    "*://*/",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+      "scripts": ["background.js"]
+    },
+  "manifest_version": 2
+}
+
+
